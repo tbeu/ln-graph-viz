@@ -116,7 +116,10 @@ function createVisualization(data) {
         defaultNodeHoverColor: '#000',
         labelDensity: 0.07,
         labelGridCellSize: 60,
-        labelRenderedSizeThreshold: 6
+        labelRenderedSizeThreshold: 6,
+        enableEdgeEvents: true,
+        enableEdgeHoverEvents: 'debounce',
+        enableEdgeClickEvents: true
     });
 
     // Set up tooltips
